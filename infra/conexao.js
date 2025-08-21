@@ -7,9 +7,7 @@ const conexao=mysql.createConnection({
     password:'',
     database:'cursosdb'
 })
-
-
-
+conexao.connect()
 
 /*aplicamos o export para utizar o objeto em outro lugar*/
 export default conexao
