@@ -1,6 +1,6 @@
-import app from './src/app.js'
+import app from "./src/app.js";
 //import conexao from './src/infra/conexao.js'
-const port = 3000
+const port = 4005
 // estabelecer a conexao
 // conexao.connect((error)=>{
 //     if(error){
